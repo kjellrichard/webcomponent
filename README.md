@@ -12,3 +12,4 @@ To launch the application, simply run:
 ```sh
 npm start
 ```
+and then open the site http://localhost:3000 in a web browser
