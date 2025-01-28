@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Header and Navigation Layout</title>
+    <link rel="stylesheet" href="./app.css" />
+
+    <script src="http://localhost:3001/navigation/NavigationComponent.js"></script>
+    <script src="http://localhost:3001/header/HeaderComponent.js"></script>
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <header>
+        <header-component title=".." module=".."></header-component>
+    </header>
+    <div class="container">
+        <navigation-component></navigation-component>
+        <div class="content">
+            <h2>Content Area</h2>
+            <p>This is where the main content will go. It will vary based on the navigation item selected.</p>
+        </div>
+    </div>
+</body>
+
+</html>

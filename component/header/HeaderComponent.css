@@ -1,0 +1,20 @@
+:host {}
+
+.header-component {
+    background-color: #333;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 1.75rem;
+}
+
+.module {
+    font-size: 1rem;
+}

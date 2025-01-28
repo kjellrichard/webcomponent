@@ -1,0 +1,39 @@
+{
+    "title": "My App",
+    "navigation": [
+        {
+            "text": "Home",
+            "url": "#/home"
+        },
+        {
+            "text": "About",
+            "url": "#/about"
+        },
+        {
+            "text": "Contact",
+            "url": "#/contact"
+        }
+    ],
+    "routes": [
+        {
+            "path": "#/home",
+            "module": "Home",
+            "content": "This is the home page"
+        },
+        {
+            "path": "#/about",
+            "module": "About",
+            "content": "This is the about page"
+        },
+        {
+            "path": "#/contact",
+            "module": "Contact",
+            "content": "This is the contact page"
+        },
+        {
+            "path": "#/404",
+            "module": "404",
+            "content": "Page not found"
+        }
+    ]
+}
